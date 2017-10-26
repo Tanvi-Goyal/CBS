@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c7"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.prashant.cbs.About_us">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="20dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/l" />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2.5dp"
+            android:text="
+  Shaheed Sukhdev College of Business Studies (CBS) is one of the premier institution of the University of Delhi, imparting education in the fields of management and information technology with excellence and vision.
+Shaheed Sukhdev College of Business Studies , or CBS, as it is better known in corporate circles, was the first undergraduate management school under the aegis of the University of Delhi(DU).
+\nIn 1999, the college became the only college in the country to offer the BFIA programme, a core Finance based programme spread over six semesters. "
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2.5dp"
+            android:text="THANK YOU!"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

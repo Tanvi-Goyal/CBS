@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cyan">#B2EBF2</color>
+    <color name="brown">#7B241C</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name = "tan_background">#FFF9C4</color>
+    <color name="c0">#FCB03B</color>
+    <color name="c1">#FC8D3B</color>
+    <color name="c2">#FF5733</color>
+    <color name="c18">#F2F7BE</color>
+    <color name="c3">#F7441C</color>
+    <color name="c4">#C70039</color>
+    <color name="c5">#900C3F</color>
+    <color name="c6">#461237</color>
+    <color name="c7">#ffe0b2 </color>
+    <color name="c8">#FF4081</color>
+    <color name="c9">#FF4081</color>
+    <color name="c10">#FF4081</color>
+    <color name="c11">#FF4081</color>
+    <color name="c12">#943126</color>
+    <color name="c13">#B03A2E</color>
+    <color name="c14">#CB4335</color>
+    <color name="c15">#A4281E</color>
+    <color name="c16">#EC7063</color>
+    <color name="c17">#F5B7B1</color>
+    <color name="mehroon">#F5B7B1</color>
+    <color name="brownlight">#ffccbc</color>
+    <color name="lightgrey">#e0e0e0  </color>
+    <color name="lightbrown">#ffab91</color>
+
+</resources>

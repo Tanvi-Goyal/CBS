@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c7"
+    tools:context="com..MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/brown"/>
+
+        <LinearLayout
+            android:id="@+id/aboutCourse"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/brownlight"
+            android:padding="18dp">
+
+            <ImageView
+                android:id="@+id/about_course_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/calendar" />
+
+
+            <TextView
+                android:id="@+id/about_course_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="ABOUT COURSE"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/abtCourse"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/download" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/brown"/>
+        <LinearLayout
+            android:id="@+id/syllabus"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@color/lightbrown"
+            android:padding="18dp">
+
+            <ImageView
+                android:id="@+id/syllabus_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/calendar" />
+
+
+            <TextView
+                android:id="@+id/syllabus_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="SYLLABUS"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:id="@+id/syllabus_b"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/download"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/brown"/>
+        <LinearLayout
+            android:id="@+id/fee_structure"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@color/brownlight"
+            android:padding="18dp">
+
+            <ImageView
+                android:id="@+id/fee_structure_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/calendar" />
+
+
+            <TextView
+                android:id="@+id/fee_structure_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="FEE STRUCTURE"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/brown"/>
+        <LinearLayout
+            android:id="@+id/fee_sublayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightgrey"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/fee_sublayout_f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="First Year "
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/fee_1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/download"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fee_sublayout_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Second Year "
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/fee_2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/download"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fee_sublayout_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Third Year "
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/fee_3"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/download"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
