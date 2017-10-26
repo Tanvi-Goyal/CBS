@@ -15,6 +15,8 @@ class Splash_Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
 
+
+
         val timer = Timer()
         timer.schedule(object : TimerTask() {
 
