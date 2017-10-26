@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/clot"
+    android:background="@drawable/gradient_youtube"
     android:orientation="vertical"
     tools:context="com.example.prashant.cbs.Home">
     <LinearLayout
@@ -13,11 +13,11 @@
         android:layout_margin="15dp">
         <LinearLayout
             android:layout_width="match_parent"
+            android:orientation="horizontal"
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:elevation="55dp"
                 android:src="@drawable/icon"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:gravity="center"
                     android:text="Shaheed Sukhdev College of Bussiness Studies"
                     android:textColor="@color/white"/>
@@ -52,46 +52,6 @@
             </LinearLayout>
         </LinearLayout>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="220dp"
-       android:layout_margin="10dp">
-
-        <ViewFlipper
-            android:id="@+id/flipper"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_margin="20dp">
-
-            <ImageView
-                android:id="@+id/pic1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pic1" />
-
-
-            <ImageView
-                android:id="@+id/pic4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/coverpage_enactus" />
-
-        </ViewFlipper>
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -248,5 +208,41 @@
                     android:text="Log-In" />
             </LinearLayout>
         </LinearLayout>
+
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+       android:layout_margin="10dp">
+
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:id="@+id/pic1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic1" />
+
+
+            <ImageView
+                android:id="@+id/pic4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/coverpage_enactus" />
+
+        </ViewFlipper>
+
+    </LinearLayout>
+
+
+
 </LinearLayout>
