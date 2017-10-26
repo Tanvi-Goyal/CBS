@@ -28,6 +28,8 @@ class Splash_Activity : AppCompatActivity() {
 
             }
         }, 1000)
+
+
     }
 
 
