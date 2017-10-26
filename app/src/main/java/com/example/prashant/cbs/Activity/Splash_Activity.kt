@@ -17,7 +17,6 @@ class Splash_Activity : AppCompatActivity() {
 
 
 
-
         val timer = Timer()
         timer.schedule(object : TimerTask() {
 
